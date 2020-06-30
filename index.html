@@ -56,7 +56,13 @@
 
         <h1 class="hero-title reset">эффективные решения для вашего бизнеса</h1>
 
-        <a href="" class="button" target="_blank">Заказать услугу</a>
+        <button class="button" data-modal-open>Заказать услугу</button>
+
+             <div class="backdrop is-hidden" data-modal>
+               <div class="modal">
+                 <button data-modal-close>Close</button>
+               </div>
+             </div>
       
          </div>
       </section>
@@ -414,11 +420,18 @@
 <div class="subscribe">
       <b class="contact">подпишитесь на рассылку</b>
 
+      <div class="footer-form">
+<form>
+  <label for="">
+    <input type="email" name="email" placeholder="E-mail" class="footer-input">
+  </label>
+</form>
       <button class="button-footer" type="button">Подписаться
         <svg class="icon-send">
           <use href="./images/symbol-defs.svg#send"> </use>
         </svg>
       </button>
+    </div>
 </div>
 
 </div>
@@ -428,5 +441,6 @@
 
      </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
