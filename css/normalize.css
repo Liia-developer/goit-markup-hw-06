@@ -237,6 +237,7 @@ body {
 
 .address-text {
     margin-bottom: 9px;
+    min-width: 220px;
 
     color: var(--primary-white-color);
     font-style: normal;
@@ -331,7 +332,7 @@ body {
                     /* subscriber container */
 .subscribe {
     margin-top: 57px;
-    margin-left: 94px;
+    margin-left: 90px;
 }
 
 .footer-form {
@@ -363,7 +364,7 @@ body {
 
     background: #2F303A;
     
-    /* color: rgba(255, 255, 255, 0.6); */
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .button-footer {

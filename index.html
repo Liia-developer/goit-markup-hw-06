@@ -60,8 +60,61 @@
 
              <div class="backdrop is-hidden" data-modal>
                <div class="modal">
-                 <button data-modal-close>Close</button>
-               </div>
+                 <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+                 
+                 <div class="modal-close" data-modal-close>
+                 <svg class="icon-close" width="12" height="12" >
+                  <use href="./images/symbol-defs.svg#close"> </use>
+                </svg>
+                </div>
+
+                 <form autocomplete="off">
+
+                 <div class="modal-form">
+                   <input class="modal-fild" type="text" name="user-name" id="name" placeholder=" ">
+                   <label class="modal-label" for="name">Имя</label>
+                                      
+                   <svg class="modal-icon" width="12" height="12" >
+                    <use href="./images/symbol-defs.svg#person"> </use>
+                  </svg>
+                  </div>
+
+                 <div class="modal-form">
+                  <input class="modal-fild" type="tel" name="tel" id="tel" placeholder=" ">
+                  <label class="modal-label" for="tel">Телефон</label>
+                                  
+                  <svg class="modal-icon" width="13" height="13">
+                    <use href="./images/symbol-defs.svg#tell"> </use>
+                  </svg>
+                  </div>
+
+                 <div class="modal-form">
+                  <input class="modal-fild" type="email" name="email" id="email" placeholder=" ">
+                  <label class="modal-label" for="email">Почта</label>
+                                    
+                  <svg class="modal-icon" width="15" height="12">
+                    <use href="./images/symbol-defs.svg#email"> </use>
+                  </svg>
+                  </div>
+
+                 <div class="form-textarea">
+                  <textarea class="modal-textarea" name="comment" id="comment" placeholder=" "></textarea>
+                  <label class="textarea-label" for="comment">Комментарий</label>
+                 </div>
+                                          <!-- checkbox -->
+                                
+                  <label class="checkbox-label">
+                    <input class="checkbox" type="checkbox">
+                  <span class="checkbox-icon"></span>
+                    Соглашаюсь с рассылкой и принимаю 
+                    <a class="accept" href="">Условия договора</a>
+                  </label>
+                            
+                 </form>
+
+                 <button class="button-close" type="submit" data-modal-close>Отправить</button>
+               
+                </div>
              </div>
       
          </div>
